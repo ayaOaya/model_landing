@@ -7,7 +7,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: brightness(90%);
+    filter: brightness(80%);
    
 }
 
@@ -20,7 +20,7 @@
      .title{
         font-weight: bold;
         padding: 30px;
-        color: azure;
+        color: white;
         filter: brightness(100%);
      }
      .links{
@@ -31,6 +31,7 @@
         text-decoration: none;
         color: azure;
         font-weight: 400;
+        filter: brightness(900%); 
      }
     li{
         padding: 0px 40px;
@@ -48,15 +49,16 @@
     font-family: 'Poppins', sans-serif;
     padding-top: 120px;
     font-weight: bold;
-    font-size: 4.3rem;
+    font-size: 4rem;
     color: azure;
 
 }
 .title{
     font-family: 'Poppins', sans-serif;
     padding-top: 10px;
-    padding-left: 445px;
+    padding-left: 35rem;
     font-weight: bold;
     color: azure;
+    font-size: 1rem;
 
 }

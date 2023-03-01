@@ -1,4 +1,5 @@
 import React from 'react'
+import { gsap } from "gsap";
 import "./style.scss"
 
 export default function Footer() {
@@ -10,7 +11,7 @@ export default function Footer() {
     <div className="container">
 
       {/* add a grid with 3 columns each colum has 5 elements */}
-      <ul>
+      <ul className='links-items'>
         <li>Original</li>
         <li>About</li>
         <li>Helpful links</li>

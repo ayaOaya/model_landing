@@ -1,4 +1,5 @@
 import React from 'react'
+import { gsap } from "gsap";
 import "./style.scss"
 
 export default function Navbar() {
