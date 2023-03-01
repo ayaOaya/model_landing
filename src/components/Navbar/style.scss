@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+
+.bg{
+    background-image: url(../../../public/img/pexels-cole-keister-2466756.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(90%);
+   
+}
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase; 
+    filter: brightness(100%);  
+     .title{
+        font-weight: bold;
+        padding: 30px;
+        color: azure;
+        filter: brightness(100%);
+     }
+     .links{
+        margin-top: 30px;
+        text-decoration: none;
+     }
+     a{
+        text-decoration: none;
+        color: azure;
+        font-weight: 400;
+     }
+    li{
+        padding: 0px 40px;
+         display:inline;
+         text-decoration: none;
+         font-size: 12px;
+         margin-top: 35px;
+    }
+    .special{
+        padding: 0 50px;
+    }
+}
+.header-title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 120px;
+    font-weight: bold;
+    font-size: 4.3rem;
+    color: azure;
+
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    padding-left: 445px;
+    font-weight: bold;
+    color: azure;
+
+}
