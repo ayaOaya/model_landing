@@ -7,31 +7,33 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: brightness(80%);
+    opacity: 1;
    
 }
 
 .navbar{
+    opacity: 1;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
     text-transform: uppercase; 
-    filter: brightness(100%);  
+    opacity: 0;
+    
+     
      .title{
         font-weight: bold;
-        padding: 30px;
+        padding: 10px 20px;
         color: white;
-        filter: brightness(100%);
      }
      .links{
-        margin-top: 30px;
+        margin-top: 10px;
         text-decoration: none;
      }
      a{
         text-decoration: none;
         color: azure;
         font-weight: 400;
-        filter: brightness(900%); 
+        
      }
     li{
         padding: 0px 40px;
@@ -44,13 +46,22 @@
         padding: 0 50px;
     }
 }
+
 .header-title{
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    padding-top: 120px;
+    padding-top: 239px;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 5rem;
     color: azure;
+    opacity: 0;
+
+
+    .sp{
+        padding-left: 355px;
+        margin-top: 900px;
+        font-size: 4rem;
+    }
 
 }
 .title{
